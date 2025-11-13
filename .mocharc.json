@@ -1,0 +1,9 @@
+{
+  "loader": "ts-node/esm",
+  "spec": "tests/*.test.ts",
+  "timeout": 5000,
+  "reporter": "spec",
+  "node-option": [
+    "loader=ts-node/esm"
+  ]
+}
