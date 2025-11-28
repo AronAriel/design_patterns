@@ -2,6 +2,7 @@ import { expect } from 'chai';
 import { Cone } from '../src/entities/Cone.js';
 import { Point } from '../src/entities/Point.js';
 import { ConeService } from '../src/services/Cone.js';
+import { InvalidInputException } from '../src/exceptions/InvalidInputException.js';
 
 describe('ConeService', () => {
   const cone = new Cone('cone1', new Point(0, 0, 5), new Point(0, 0, 0), 3, 5);
@@ -21,5 +22,11 @@ describe('ConeService', () => {
     expect(ConeService.isValidCone(invalidCone)).to.be.false;
     expect(ConeService.calculateSurfaceArea(invalidCone)).to.be.a('number');
     expect(ConeService.calculateVolume(invalidCone)).to.be.equal(0);
+  });
+
+  it('throws when volumeRatio cutHeight invalid', () => {
+    const cone = new Cone('cone1', new Point(0, 0, 5), new Point(0, 0, 0), 3, 5);
+    expect(() => ConeService.volumeRatio(cone, 0)).to.throw(InvalidInputException);
+    expect(() => ConeService.volumeRatio(cone, 6)).to.throw(InvalidInputException);
   });
 });

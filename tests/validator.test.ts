@@ -32,4 +32,9 @@ describe('DataValidator', () => {
     const line = 'cone cone2 1 2 3 1 2 3 3 -5';
     expect(() => DataValidator.parseLine(line)).to.throw(InvalidDataError);
   });
+
+  it('throws error for degenerate oval with same X or Y coordinates', () => {
+    expect(() => DataValidator.parseLine('oval bad 1 2 1 5')).to.throw(InvalidDataError);
+    expect(() => DataValidator.parseLine('oval bad 1 2 3 2')).to.throw(InvalidDataError);
+  });
 });

@@ -25,4 +25,12 @@ describe('OvalService', () => {
     expect(area).to.be.equal(0);
     expect(OvalService.isCircle(degenerateOval)).to.be.false;
   });
+
+  it('checks intersectsOneAxis logic', () => {
+    const oval = new Oval('oval4', new Point(-1, 0.5), new Point(1, 1.5));
+    const intersects = OvalService.intersectsOneAxis(oval, 2);
+    expect(intersects).to.be.true;
+    const notIntersects = OvalService.intersectsOneAxis(new Oval('oval5', new Point(-1, -1), new Point(1, 1)), 0.1);
+    expect(notIntersects).to.be.false;
+  });
 });

@@ -18,8 +18,4 @@ export class Cone extends Shape {
   getName(): string {
     return 'Cone';
   }
-
-  get axisLength(): number {
-    return this.apex.distanceTo(this.baseCenter);
-  }
 }

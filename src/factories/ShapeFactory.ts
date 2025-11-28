@@ -3,6 +3,7 @@ import { Cone } from '../entities/Cone.ts';
 import { Point } from '../entities/Point.ts';
 import { DataValidator } from '../validators/DataValidator.ts';
 import { InvalidDataError } from '../exceptions/InvalidDataError.ts';
+import { ShapeCreationException } from '../exceptions/ShapeCreationException.ts';
 import { logger } from '../utils/logger.ts';
 
 
@@ -36,7 +37,7 @@ export class ShapeFactory {
         throw err;
       }
       logger.error({ err: (err as Error).message, line }, 'Unexpected error while parsing line');
-      throw new InvalidDataError('Unexpected error during parsing', line);
+      throw new ShapeCreationException('Unexpected error during parsing', line);
     }
   }
 }

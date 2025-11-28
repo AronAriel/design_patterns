@@ -1,5 +1,6 @@
 import { Point } from '../entities/Point.ts';
 import { Oval } from '../entities/Oval.ts';
+import { logger } from '../utils/logger.ts';
 
 export class OvalService {
   static calculateSemiAxes(oval: Oval): { a: number; b: number } {
@@ -22,7 +23,9 @@ export class OvalService {
 
   static isCircle(oval: Oval): boolean {
     const { a, b } = this.calculateSemiAxes(oval);
-    return Math.abs(a - b) < 1e-6;
+    const result = Math.abs(a - b) < 1e-6;
+    logger.debug({ ovalId: oval.id, a, b, isCircle: result }, 'isCircle computed');
+    return result;
   }
 
   static areValidPoints(oval: Oval): boolean {
@@ -34,6 +37,8 @@ export class OvalService {
     const { point1, point2 } = oval;
     const xCross = point1.x * point2.x < 0 && Math.abs(point1.y) <= distance && Math.abs(point2.y) <= distance;
     const yCross = point1.y * point2.y < 0 && Math.abs(point1.x) <= distance && Math.abs(point2.x) <= distance;
-    return (xCross && !yCross) || (!xCross && yCross);
+    const result = (xCross && !yCross) || (!xCross && yCross);
+    logger.debug({ ovalId: oval.id, distance, intersectsOneAxis: result }, 'intersectsOneAxis computed');
+    return result;
   }
 }

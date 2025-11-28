@@ -49,6 +49,10 @@ export class DataValidator {
       if (nums.length < 4) {
         throw new InvalidDataError('Oval requires 4 numeric parameters: x1 y1 x2 y2', line);
       }
+      const [x1, y1, x2, y2] = nums.slice(0, 4);
+      if (x1 === x2 || y1 === y2) {
+        throw new InvalidDataError('Oval points must not be on the same X or Y coordinate (zero width/height)', line);
+      }
       return { type: 'oval', id, numbers: nums.slice(0, 4) };
     }
 
