@@ -2,8 +2,8 @@ import { Shape } from './Shape.ts';
 import { Point } from './Point.ts';
 
 export class Oval extends Shape {
-  public readonly point1: Point;
-  public readonly point2: Point;
+  public point1: Point;
+  public point2: Point;
 
   constructor(id: string, point1: Point, point2: Point) {
     super(id);
@@ -13,5 +13,11 @@ export class Oval extends Shape {
 
   getName(): string {
     return 'Oval';
+  }
+
+  setPoints(p1: Point, p2: Point): void {
+    this.point1 = p1;
+    this.point2 = p2;
+    this.notifyObservers();
   }
 }

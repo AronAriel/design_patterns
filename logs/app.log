@@ -178,3 +178,141 @@
 {"level":50,"time":1764293351414,"pid":36904,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
 {"level":40,"time":1764293351417,"pid":36904,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
 {"level":40,"time":1764293351418,"pid":36904,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122222,"pid":35208,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294122223,"pid":35208,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122232,"pid":35208,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122233,"pid":35208,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294122235,"pid":35208,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294122242,"pid":35208,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294122243,"pid":35208,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152450,"pid":30196,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294152451,"pid":30196,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294152458,"pid":30196,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152458,"pid":30196,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152458,"pid":30196,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152458,"pid":30196,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152459,"pid":30196,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294152460,"pid":30196,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294152467,"pid":30196,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294152468,"pid":30196,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176411,"pid":18956,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294176413,"pid":18956,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176420,"pid":18956,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176421,"pid":18956,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294176422,"pid":18956,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294176429,"pid":18956,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294176430,"pid":18956,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203240,"pid":32904,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294203241,"pid":32904,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203249,"pid":32904,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203250,"pid":32904,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294203252,"pid":32904,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294203259,"pid":32904,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294203259,"pid":32904,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359294,"pid":33980,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294359296,"pid":33980,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294359305,"pid":33980,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359305,"pid":33980,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359306,"pid":33980,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359307,"pid":33980,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294359309,"pid":33980,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294359316,"pid":33980,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294359317,"pid":33980,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385183,"pid":29320,"hostname":"Blipypok","cutHeight":0,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294385185,"pid":29320,"hostname":"Blipypok","cutHeight":6,"coneId":"cone1","msg":"Invalid cut height for cone"}
+{"level":40,"time":1764294385192,"pid":29320,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385192,"pid":29320,"hostname":"Blipypok","line":"oval oval2 1.0 1.0 1.0 5.0","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385192,"pid":29320,"hostname":"Blipypok","err":"Oval requires 4 numeric parameters: x1 y1 x2 y2","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"oval oval4 1.0 2.0       ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"oval oval5 1.0 2.0 3.0 a     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","err":"Oval points must not be on the same X or Y coordinate (zero width/height)","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"oval oval6 0.0 0.0 0.0 0.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"cone cone2 1.0 2.0 3.0 1.0 2.0 0.0 2.0 -5.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","err":"Cone radius must be positive","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"cone cone3 1.0 2.0 3.0 4.0 5.0 6.0 -1.0 2.0  ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","err":"Cone height must be positive","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385193,"pid":29320,"hostname":"Blipypok","line":"cone cone4 1.0 2.0 3.0 4.0 5.0 6.0 2.0 0.0   ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385194,"pid":29320,"hostname":"Blipypok","err":"Cone requires 8 numeric parameters: ax ay az bx by bz radius height","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385194,"pid":29320,"hostname":"Blipypok","line":"cone cone5 1.0 2.0 3.0 4.0 5.0 6.0 2.0     ","msg":"Invalid input line skipped by Reader"}
+{"level":40,"time":1764294385194,"pid":29320,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385194,"pid":29320,"hostname":"Blipypok","line":"cone cone6 1.0 2.0 3.0 4.0 5.0 6.0 2.0 a    ","msg":"Invalid input line skipped by Reader"}
+{"level":50,"time":1764294385195,"pid":29320,"hostname":"Blipypok","err":"File outside of project folder is not allowed","path":"C:\\Users\\arons\\design\\outside.txt","msg":"File read failed"}
+{"level":40,"time":1764294385203,"pid":29320,"hostname":"Blipypok","err":"One or more parameters are not valid numbers","line":"oval invalid 1 2 a 4","msg":"Invalid input line skipped"}
+{"level":40,"time":1764294385204,"pid":29320,"hostname":"Blipypok","err":"Unknown shape type: triangle","line":"triangle t1 0 0 1 1 2 2","msg":"Invalid input line skipped"}
